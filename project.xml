@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="Compass Rose" package="com.watabou.compass" version="0.0.2" company="Retronic Games" />
+	<app main="com.watabou.compass.Main" path="Export" file="Rose" />
+
+	<source path="Source" />
+
+	<haxelib name="openfl" version="8.9.0"/>
+
+	<window width="960" height="960" if="desktop"/>
+	<window fullscreen="false" resizable="true" borderless="false" if="desktop"/>
+	<window background="0xeeeeee" fps="120" vsync="true" hardware="true" allow-high-dpi="true" antialiasing="4" />
+
+	<assets path="Assets">
+		<font path="Merienda-Regular.ttf" glyphs="69,78,83,87" id="regular"/>
+	</assets>
+
+</project>
